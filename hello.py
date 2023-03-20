@@ -1,0 +1,18 @@
+# this program says hello and asks me my name
+
+print('suhhh dude')
+print('what\'s yer name?')
+myName = input()
+print()
+print('nice ta meet ye, ' + myName)
+print()
+print('yer name\'s got ') 
+print(len(myName)) 
+print('letters in it... in case that\'s useful for ye to know')
+print()
+print('how old are ye?')
+myAge = input()
+print()
+print('ye\'ll be ' + str(int(myAge) + 1) + ' on yer next birthday.')
+print()
+print('later, peace')
